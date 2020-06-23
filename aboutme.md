@@ -1,8 +1,8 @@
 ---
 layout: default
-cover-img: https://github.com/bozbil/bozbil.github.io/blob/master/assets/img/IMG_20170515_170914%20-%20Kopya.jpg
+cover-img: https://github.com/bozbil/bozbil.github.io/blob/master/assets/img/me.jpg
 ---
-![kahraman](https://github.com/bozbil/bozbil.github.io/blob/master/assets/img/IMG_20170515_170914%20-%20Kopya.jpg)
+![kahraman](https://github.com/bozbil/bozbil.github.io/blob/master/assets/img/me.jpg)
 Kahraman Koştaş ([ BSc ](http://bote.aef.marmara.edu.tr/en/), [ BA ](http://abp.anadolu.edu.tr/en/program/programProfili/1677/8), [ MSc ](https://www.essex.ac.uk/courses/pg00502/1/msc-computer-networks-and-security))
 
 
