@@ -39,13 +39,13 @@ Aşağıdaki resimde (Şekil 1)Gerçek ve Tahmin verilerini görüyorsunuz. Kır
 
 **FN**: Eğer bir kişiye hırsız değil dediniz ve o kişi hırsızsa **False Negative**.
 
-![cmd](https://miro.medium.com/max/1400/1*9xoUazA-Ghv3K2iOvbLRvw.png =650x))
+![cmd](https://miro.medium.com/max/1400/1*9xoUazA-Ghv3K2iOvbLRvw.png =650x)
 <sub><sup>         Şekil 2- TP, TN, FP ve FN kavramlarının görselleştirilmesi.</sup></sub>
 
 Bu dört grubu, bir arada gösteren tabloya confusion matrix (Hata Matrisi) diyoruz. Tahminlerimizin confusion matrix üzerindeki dağılımını Şekil 3'de görebilirsiniz. Şekil ürerindeki sari daireler tahmin edilen müşterilerin numaralarını gösterir.
 
 
-![cmd](https://miro.medium.com/max/1400/1*wXOW5qTZMWIgwC_9WiFFlg.png  =650x))
+![cmd](https://miro.medium.com/max/1400/1*wXOW5qTZMWIgwC_9WiFFlg.png  =650x)
 <sub><sup> Şekil 3- Tahminlerimizin confusion matrix üzerindeki dağılımı</sup></sub>
 
 
@@ -57,7 +57,7 @@ Değerlendirme yöntemleri arasında en yaygın olarak kullanılan yöntem, **Ac
 
 şöyle bir örnekle açıklayalım: yine markette hırsızlığı tespit etmeye çalıştığımızı farzedelim. İnsanların pek azı hırsızdır. Diyelim ki çalınan ürünleri tespit eden bir alarm sistemimiz var ve ne yazık ki sistemimiz bozuk. 100 kişilik müşterilerimiz içerisinde yalnızca bir hırsız olsun. Sitemimiz bozuk olduğu için bu kişiyi tespit edemedik ancak günün sonunda başarımızı ağer accuracy ile ölçersek (Şekil 4'ü inceleyin):
 
-![cmd](https://miro.medium.com/max/1400/1*3NSDQLa6MJWqwDQ9WVGRVA.png  =650x))
+![cmd](https://miro.medium.com/max/1400/1*3NSDQLa6MJWqwDQ9WVGRVA.png  =650x)
 <sub><sup> Şekil 4 — Örnek için yaratılan confusion matrix ve Accuracy’nin hesaplaması</sup></sub>
 
 
@@ -69,7 +69,7 @@ Sistemimiz tamamen arızalı iken bile %99 başarı oranı sağlıyor ki bu tama
 
 **Recall (Duyarlılık/Hassasiyet)**: doğru tespit ettiğimiz Pozitif sınıfların (TP, doğru tahmin ettiğimiz hırsızlar), Tüm pozitiflere oranı (bizim doğru tahmin etmemizden bağımsız olarak gerçekten hırsız olanlar, yani TP+FN). Şekil 5, İlk hücre bölü ilk sütun (TP/(TP+FN)).
 
-![cmd](https://miro.medium.com/max/1400/1*6x1aLVFtaeoor8Ak2XFbkQ.png  =550x))
+![cmd](https://miro.medium.com/max/1400/1*6x1aLVFtaeoor8Ak2XFbkQ.png  =550x)
 <sub><sup> Şekil 5- Örnek confusion matrix </sup></sub>
 
 **Precision (Kesinlik) **: doğru tespit ettiğimiz Pozitif sınıfların (TP, doğru tahmin ettiğimiz hırsızlar) tüm hırsız diye etiketlediğimiz/adlandırdığımız verilere oranı (TP+FP). Başka bir değişle bildiğimiz hırsızların sayısının, bildiğimiz hırsızlar ve yanlış alarmların toplamına oranı. Şekil 5, İlk hücre bölü ilk satır (TP/(TP+FP))
@@ -86,12 +86,12 @@ Market örneğinde, bazen hırsızların çaldıkları şeyleri çok iyi sarıp 
 Accuracy’ye alternatif olabilecek bir başka değerlendirme yöntemi ise **F1 Score**’dur. F1 Score’un dengesiz dağılıma sahip verisetleri için kullanımı daha doğru olacaktır.
 
 
-![cmd](https://miro.medium.com/max/1400/1*6k0DZYRQ23sV4tHiSGfP8A.png  =750x))
+![cmd](https://miro.medium.com/max/1400/1*6k0DZYRQ23sV4tHiSGfP8A.png)
 <sub><sup> F1 Score Formülü</sup></sub>
 
 
 F1 Score, Precision ve Recall’un harmonik ortalamasıdır. Harmonik ortalamanın normal ortalamadan farkı, taraf güçsüzün yanında olmasıdır 😊. F1, yüksek değeri cezalandırır, böylece bu iki değerden yüksek olan düşük olanı manipüle etmesinin önüne geçer . Harmonik ortalama ve normal ortalamanın farkını sezmek için aşağıdaki tabloyu inceleyebilirsiniz.
 
 
-![cmd](https://miro.medium.com/max/1400/1*af6_SHR6jPJtMTjbo0IjQw.png =800x))
+![cmd](https://miro.medium.com/max/1400/1*af6_SHR6jPJtMTjbo0IjQw.png)
 <sub><sup>harmonik ortalama vs normal ortalama</sup></sub>
