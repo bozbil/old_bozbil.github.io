@@ -2,7 +2,7 @@
 layout: page
 title: "About Me"
 description: "Who am I"
-header-img: "https://bozbil.github.io/me.jpg"
+header-img: "https://kahramankostas.github.io/me.jpg"
 comments: false
 ---
 
