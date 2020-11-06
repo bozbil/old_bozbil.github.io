@@ -52,7 +52,7 @@ Bu dört grubu, bir arada gösteren tabloya confusion matrix (Hata Matrisi) diyo
 Değerlendirme yöntemleri arasında en yaygın olarak kullanılan yöntem, **Accuracy (Doğruluk)**’ dur.
 
 
-**Accuracy** tüm doğru cevaplarınızın(TP), tüm cevaplarınıza (TP,TN,FP,FN) oranı olarak kısaca açıklanabilir ( TP/(TP+TN+FP+FN)). Sık kullanılmasına rağmen accuracy’nin bir dezavantajı vardır: dengesiz dağılıma sahip gruplarda sağlıklı sonuç vermez.
+**Accuracy** tüm doğru cevaplarınızın(TP ve TN), tüm cevaplarınıza (TP,TN,FP,FN) oranı olarak kısaca açıklanabilir ( (TP+TN)/(TP+TN+FP+FN)). Sık kullanılmasına rağmen accuracy’nin bir dezavantajı vardır: dengesiz dağılıma sahip gruplarda sağlıklı sonuç vermez.
 
 
 şöyle bir örnekle açıklayalım: yine markette hırsızlığı tespit etmeye çalıştığımızı farzedelim. İnsanların pek azı hırsızdır. Diyelim ki çalınan ürünleri tespit eden bir alarm sistemimiz var ve ne yazık ki sistemimiz bozuk. 100 kişilik müşterilerimiz içerisinde yalnızca bir hırsız olsun. Sitemimiz bozuk olduğu için bu kişiyi tespit edemedik ancak günün sonunda başarımızı ağer accuracy ile ölçersek (Şekil 4'ü inceleyin):
