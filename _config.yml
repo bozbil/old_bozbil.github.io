@@ -14,9 +14,9 @@ author: Kahraman Kostas
 navbar-links:
   About Me: "aboutme"
 #  Resources:
-#    - Beautiful Jekyll: "https://bozbil.github.io/"
-#    - Learn markdown: "https://bozbil.github.io/"
-  Author's home: "https://bozbil.github.io/"
+#    - Beautiful Jekyll: "https://kahramankostas.github.io/"
+#    - Learn markdown: "https://kahramankostas.github.io/"
+  Author's home: "https://kahramankostas.github.io/"
 
 # --- Logo --- #
 
@@ -40,7 +40,7 @@ round-avatar: true
 social-network-links:
   email: "kkostas@utexas.edu"
   facebook: kahramankostas
-  github: bozbil
+  github: kahramankostas
   twitter: kkostas
   rss: false
 #  reddit: yourname
