@@ -1,9 +1,8 @@
 ---
-layout: default
-title: Kahraman Koştaş
-subtitle: About Me
-cover-img: https://bozbil.github.io/me.jpg
-tags: [eğitim,üniversite, doktora]
+layout: page
+title: "About Me"
+description: "Who am I"
+header-img: "https://bozbil.github.io/me.jpg"
 comments: false
 ---
 
