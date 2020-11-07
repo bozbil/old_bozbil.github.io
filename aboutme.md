@@ -27,8 +27,7 @@ Between undergraduate and graduate education, I worked as a computer teacher for
 My personal interests include hiking, taking photos and Turkish literature, etymology and classical Turkish poetry (I obtained my BA in [Turkish Language and Literature](http://abp.anadolu.edu.tr/en/program/programProfili/1677/8) with Honour in 2015 )
 
 
-You can find my detailed CV in [here](https://github.com/kahramankostas/cv/blob/master/README.md)
-You can find my detailed CV in [here](https://github.com/kahramankostas/kahramankostas.github.io/blob/master/assets/docs/Kahramankostas_CV.pdf).
+You can find my detailed CV in [here](https://github.com/kahramankostas/cv/blob/master/Kahramankostas_CV.pdf).
 
 
 
